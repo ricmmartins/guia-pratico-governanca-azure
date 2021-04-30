@@ -20,7 +20,7 @@ Obviamente, além de usar grupos de gerenciamento para gerenciar a aplicação d
 
 ![management-group-2](../images/management-group-2.png)
 
-Referência: [https://docs.microsoft.com/en-us/azure/governance/management-groups/overview](https://docs.microsoft.com/en-us/azure/governance/management-groups/visão global)
+Referência: [https://docs.microsoft.com/pt-br/azure/governance/management-groups/overview](https://docs.microsoft.com/pt-br/azure/governance/management-groups/overview)
 
 ### Pro tip!
 
