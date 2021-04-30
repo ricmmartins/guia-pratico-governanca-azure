@@ -8,7 +8,7 @@ Permite entender a alocação de custos, criar orçamentos, configurar o recebim
 
 Também é possível baixar os gráficos criados em PNG, Excel e CSV e exportar automaticamente os dados para uma conta de armazenamento em uma base diária, semanal ou mensal.
 
-Mesmo no Gerenciamento de Custos, você pode ver as recomendações de custo do [Azure Advisor](https://docs.microsoft.com/pt-br/azure/advisor/advisor-overview), acessar seus dados de fatura e métodos de pagamento associados. Além disso, você também pode comprar reservas do Azure, onde inicialmente só era possível comprar [reservas](https://docs.microsoft.com/pt-br/azure/cost-management-billing/reservations/save-compute-cost-reservations) para máquinas virtuais, porém hoje é possível reservar recursos como armazenamento, serviços de dados e planos de software como SUSE Linux, Red Hat e VMWare.
+Mesmo no Gerenciamento de Custos, você pode ver as recomendações de custo do [Azure Advisor](https://docs.microsoft.com/pt-br/azure/advisor/advisor-overview), acessar seus dados de fatura e métodos de pagamento associados. Além disso, você também pode comprar reservas do Azure, onde inicialmente só era possível comprar [reservas](https://docs.microsoft.com/pt-br/azure/cost-management-billing/reservations/save-compute-costs-reservations) para máquinas virtuais, porém hoje é possível reservar recursos como armazenamento, serviços de dados e planos de software como SUSE Linux, Red Hat e VMWare.
 
 Além de tudo isso, um recurso adicional que pode ser interessante se você estiver em uma estratégia de várias nuvens é permitir que você faça login em sua conta da AWS e gerencie o faturamento de várias nuvens por meio de uma única ferramenta.
 
