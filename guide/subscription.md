@@ -63,7 +63,7 @@ Atualmente, estão disponibilizadas [três diferentes implementações de refer�
 
 ### Pro tip!
 
-✔️ [Enterprise-Scale - Reference Implementation](https://github.com/Azure/Enterprise-Scale)
+✔️ [Enterprise-Scale - Implementação de referência](https://github.com/Azure/Enterprise-Scale)
 
 ---
 
