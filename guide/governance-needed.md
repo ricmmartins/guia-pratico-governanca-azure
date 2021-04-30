@@ -1,39 +1,68 @@
-## Why is governance needed?
+# Governance Overview
 
-![Why is governance needed?](../images/governance-needed.png)
 
-Companies are adopting the cloud to be more agile and save money. There is pressure to transform and innovate digitally, so that you no longer have time to focus on your own infrastructure. You want to focus on making your customers happy by providing high quality services with the support of your engineering teams. So there is a natural shift to DevOps in a cloud environment, where engineers will more quickly provide the resources needed to support a solution.
+## Por que a governança é necessária?
 
-However, this agility and easy access to resources comes at a price and many companies are struggling to control this Cloud Sprawl. We have seen this before, in early 2000, with the introduction of virtualization and the proliferation of virtualization.
 
-How did the industry react to this expansion? We jumped in front of the developers and the operations teams and stopped them before things got out of hand. We then introduced a formal process for these teams to follow where they should fill out a form so that the infra team could set up everything and in 2 weeks they would have access to their environment.
+img[src*='#center'] { 
+    display: block; 
+    margin: auto; 
+
+
+<center><img src="../images/governance-needed.png"/></center>
+
+![Por que a governança é necessária?](../images/governance-needed.png)
+
+As empresas estão adotando a nuvem para ser mais ágil e economizar dinheiro. Há uma pressão para transformar e inovar digitalmente, para que você não tenha mais tempo para se concentrar em sua própria infraestrutura. Você quer se concentrar em deixar seus clientes satisfeitos, fornecendo serviços de alta qualidade com o suporte de suas equipes de engenharia. Portanto, há uma mudança natural para DevOps em um ambiente de nuvem, onde os engenheiros fornecerão mais rapidamente os recursos necessários para dar suporte a uma solução.
+
+No entanto, essa agilidade e fácil acesso aos recursos têm um preço e muitas empresas estão lutando para controlar esse Cloud Sprawl**. Já vimos isso antes, no início de 2000, com a introdução da virtualização e a proliferação da virtualização.
+
+** O termo Cloud Sprawl é a proliferação descontrolada de instâncias, serviços ou provedores de nuvem em uma organização. Ele tipicamente ocorre quando uma organização não tem visibilidade ou controle sobre seus recursos de computação em nuvem.
+
+Como a induústria reagiu a essa expansão? Pulamos na frente dos desenvolvedores e das equipes de operações e os paramos antes que as coisas saíssem do controle. Em seguida, introduzimos um processo formal para essas equipes seguirem onde deveriam preencher um formulário para que a equipe de infra-estrutura pudesse organizar tudo e em 2 semanas teriam acesso ao seu ambiente.
 
 ![traditional-approach](../images/traditional-approach.png)
-<div align="center"><em>Traditional approach, sacrificing speed for control</em></div>
+<div align="center"><em>Abordagem tradicional, sacrificando a velocidade pelo controle</em></div>
 <br>
-However, this approach in the cloud age slows things down and you sacrifice speed to be in control.
+No entanto, essa abordagem na era das nuvens retarda as coisas e você sacrifica a velocidade para estar no controle.
 
-In a cloud-native governance model, you get both speed and control at the same time. So instead of jumping in front of the DevOps team to make sure they’re doing the right things, the cloud platform itself will enforce that control on your behalf. This allows them to have full access to the platform through a self-service model that is essential to maintain agility and speed.
+Em um modelo de governança nativo da nuvem, você obtém velocidade e controle ao mesmo tempo. Então, em vez de pular na frente da equipe de DevOps para ter certeza de que estão fazendo as coisas certas, a própria plataforma de nuvem aplicará esse controle em seu nome. Isso permite que eles tenham acesso total à plataforma por meio de um modelo de autosserviço essencial para manter a agilidade e a velocidade.
 
-You can guarantee that your teams will deploy only approved resources and anything outside these rules will be effectively denied. That way, you keep your costs predictable and more in line with your budget.
+Você pode garantir que suas equipes implantarão apenas recursos aprovados e qualquer coisa fora dessas regras será efetivamente negada. Dessa forma, você mantém seus custos previsíveis e mais alinhados com seu orçamento.
 
 ![cloud-governance-approach](../images/cloud-governance-approach.png)
-<div align="center"><em>Native cloud governance model, with speed and control together</em></div>
+<div align="center"><em>Modelo de governança de nuvem nativo, com velocidade e controle juntos</em></div>
 <br>
 
-Aligned with governance it's important to have a well defined structure around responsabilities across different teams, specially if you are migrating from an tradittional approach to cloud approach. That said, you shoud take a look into those references to help yuu mature team structures and align responsabilities within them:
+Alinhado com a governança, é importante ter uma estrutura bem definida em torno das responsabilidades entre as diferentes equipes, especialmente se você estiver migrando de uma abordagem tradicional para uma abordagem de nuvem. Dito isso, você deve dar uma olhada nessas referências para ajudá-lo a amadurecer as estruturas da equipe e alinhar as responsabilidades dentro delas:
 
-* [Mature team structures](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/organization-structures)
-* [Align responsibilities across teams](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/raci-alignment)
+* [Estruturas de equipes maduras](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/organize/organization-structures)
+* [Alinhamento de responsabilidade entre equipes](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/organize/raci-alignment)
 
-Also, if Cloud is something new for you I have some suggestions to help you start to build your technical skills:
+### Pro tip!
 
-* [Building technical skills](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/suggested-skills)
-* [Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/)
-* [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services/)
-* [Azure Fundamentals part 3: Describe core solutions and management tools on Azure](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-solutions-management-tools-azure/)
-* [Azure Fundamentals part 4: Describe general security and network security features](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-general-security-network-security-features/)
-* [Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-identity-governance-privacy-compliance-features/)
-* [Azure Fundamentals part 6: Describe Azure cost management and service level agreements](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-azure-cost-management-service-level-agreements/)
-* [Prerequisites for Azure administrators](https://docs.microsoft.com/en-us/learn/paths/azure-administrator-prerequisites/)
-* [Build great solutions with the Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/learn/paths/azure-well-architected-framework/)
+Se a nuvem é algo novo para você, tenho algumas sugestões para ajudá-lo a começar a desenvolver suas habilidades técnicas:
+
+✔️ [Criar habilidades técnicas](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/organize/suggested-skills)
+<br>
+✔️ [Princípios Básicos do Azure, parte 1: descrever os principais conceitos do Azure](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-cloud-concepts/)
+<br>
+✔️ [Princípios Básicos do Azure, parte 2: descrever os principais serviços do Azure](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-core-azure-services/)
+<br>
+✔️ [Princípios Básicos do Azure, parte 3: descrever as principais soluções e ferramentas de gerenciamento no Azure](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-core-solutions-management-tools-azure/)
+<br>
+✔️ [Princípios Básicos do Azure, parte 4: descrever os recursos gerais de segurança de rede e segurança](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-general-security-network-security-features/)
+<br>
+✔️ [Princípios Básicos do Azure, parte 5: descrever recursos de identidade, governança, privacidade e conformidade](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-identity-governance-privacy-compliance-features/)
+<br>
+✔️ [Princípios Básicos do Azure, parte 6: descrever os contratos de nível de serviço e gerenciamento de custos do Azure](https://docs.microsoft.com/pt-br/learn/paths/az-900-describe-azure-cost-management-service-level-agreements/)
+<br>
+✔️ [Pré-requisitos para administradores do Azure](https://docs.microsoft.com/pt-br/learn/paths/azure-administrator-prerequisites/)
+<br>
+✔️ [Crie soluções de alto nível com o "Well Architected Framework"do Microsoft Azure](https://docs.microsoft.com/pt-br/learn/paths/azure-well-architected-framework/)
+
+---
+| Próximo | 
+|:-----
+| [Visão geral dos recursos nativos do Azure para governança em nuvem](/guide/overview-native-features.md)
+

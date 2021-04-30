@@ -1,4 +1,4 @@
-# Azure Governance made simple
+# Guia Prático de Governança no Azure
 >Principais tópicos sobre a Governança do Azure em um "e-book" estruturado para servir como um "Learning Path" de Governança.
 
 ![azure_governance](/images/azure_governance.png)
