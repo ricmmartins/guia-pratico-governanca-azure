@@ -2,14 +2,20 @@
 
 ![resource-graph-1](../images/resource-graph-1.png)
 
-There are a few challenges today when it comes to getting visibility of all your resources properties in all subscriptions and understand how they can be impacting negatively your organization, being from a cost or a security perspectives.
+Existem alguns desafios hoje quando se trata de obter visibilidade de todas as propriedades de seus recursos em todas as assinaturas e entender como eles podem impactar negativamente sua organização, seja do ponto de vista de custo ou de segurança.
 
-* Inability to view resources and their properties across subscriptions
-* Query resources (without worrying about timeouts & throttling), including filtering, grouping and sorting of resources by resource properties
-* Resource graph provides a way to interactively explore resources, so you can assess the impact of applying policies in vast cloud environment
+* Incapacidade de visualizar recursos e suas propriedades entre assinaturas distintas
+* Consultar recursos (sem se preocupar com timeouts e  throttling), incluindo filtragem, agrupamento e classificação de recursos por propriedades de recurso
+* O Resource Graph fornece uma maneira de explorar interativamente os recursos, para que você possa avaliar o impacto da aplicação de políticas em um vasto ambiente de nuvem
 
-Resource Graph is the tool that comes to cover those needs allowing you to query and explore your resources in real time.
+O Resource Graph é a ferramenta que vem atender a essas necessidades, permitindo que você consulte e explore seus recursos em tempo real.
 
 ![resource-graph-2](../images/resource-graph-2.png)
 
-Reference: [https://docs.microsoft.com/en-us/azure/governance/resource-graph/overview](https://docs.microsoft.com/en-us/azure/governance/resource-graph/overview)
+Referência: [https://docs.microsoft.com/pt-br/azure/governance/resource-graph/overview](https://docs.microsoft.com/pt-br/azure/governance/resource-graph/overview)
+
+---
+
+Anterior | Próximo | 
+:----- |:-----
+[Azure Blueprints](/guide/blueprints.md)| [Azure Management Group](/guide/management-group.md)
