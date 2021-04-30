@@ -1,6 +1,6 @@
 ## Azure Subscription
 
-Conforme descrito anteriormente, ao criar uma assinatura do Azure, um locatário do AAD é criado automaticamente para você. Com isso, depois de criar e / ou sincronizar usuários no Azure Active Directory, agora você pode permitir que seus usuários ADF assinem sua assinatura e seus recursos existentes.
+Conforme descrito anteriormente, ao criar uma assinatura do Azure, um locatário do AAD é criado automaticamente para você. Com isso, depois de criar e/ou sincronizar usuários no Azure Active Directory, agora você pode permitir que seus usuários ADF assinem sua assinatura e seus recursos existentes.
 
 De acordo com o tamanho do seu ambiente de nuvem, você também pode criar assinaturas adicionais ou [associar outras assinaturas existentes](https://docs.microsoft.com/pt-br/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) com seu locatário do Azure Active Directory. Ter pelo menos duas assinaturas, uma para o ambiente produtivo e outra para os não produtivos, é uma boa prática para a segregação do ambiente e para [escalabilidade](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions).
 
@@ -50,7 +50,7 @@ Na landing zone, a escolha da topologia de rede a ser usada é importante para o
 
 * Uma primeira assinatura de **serviços compartilhados** (Rede Virtual Hub)
 * Uma segunda assinatura para o ambiente de **produção** (Rede Virtual Spoke 1)
-* Uma terceira assinatura para o ambiente ** não produção ** (Spoke2 Virtual Network)
+* Uma terceira assinatura para o ambiente **não produção** (Spoke2 Virtual Network)
 * Algumas referências sobre a topologia Hub e Spoke:
   - [https://docs.microsoft.com/pt-br/azure/architecture/reference-architectures/hybrid-networking/hub-spoke](https://docs.microsoft.com/pt-br/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
   - [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/software-defined-network/hub-spoke](https://docs.microsoft.com/pt-br/azure/cloud-taking-framework/decision-guides/software-defined-network/hub-spoke)
