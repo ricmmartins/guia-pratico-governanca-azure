@@ -1,13 +1,6 @@
-# Governance Overview
-
+# Visão geral de Governança
 
 ## Por que a governança é necessária?
-
-
-img[src*='#center'] { 
-    display: block; 
-    margin: auto; 
-
 
 <center><img src="../images/governance-needed.png"/></center>
 
