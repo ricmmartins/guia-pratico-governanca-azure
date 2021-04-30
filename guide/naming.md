@@ -8,6 +8,6 @@ Da mesma forma você pode encontrar uma lista de abreviações recomendadas para
 
 ---
 
-Previous| Next | 
+Anterior | Próximo | 
 :----- |:-----
 [Azure Active Directory](/guide/aad.md)| [Azure Subscription](/guide/subscription.md)
