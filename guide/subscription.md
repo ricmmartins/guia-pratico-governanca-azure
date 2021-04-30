@@ -2,7 +2,7 @@
 
 Conforme descrito anteriormente, ao criar uma assinatura do Azure, um locatário do AAD é criado automaticamente para você. Com isso, depois de criar e / ou sincronizar usuários no Azure Active Directory, agora você pode permitir que seus usuários ADF assinem sua assinatura e seus recursos existentes.
 
-De acordo com o tamanho do seu ambiente de nuvem, você também pode criar assinaturas adicionais ou [associar outras assinaturas existentes] (https://docs.microsoft.com/pt-br/azure/active-directory/fundamentals/active-directory-how -subscriptions-associated-directory) com seu locatário do Azure Active Directory. Ter pelo menos duas assinaturas, uma para o ambiente produtivo e outra para os não produtivos, é uma boa prática para a segregação do ambiente e para [escalabilidade] (https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions).
+De acordo com o tamanho do seu ambiente de nuvem, você também pode criar assinaturas adicionais ou [associar outras assinaturas existentes](https://docs.microsoft.com/pt-br/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) com seu locatário do Azure Active Directory. Ter pelo menos duas assinaturas, uma para o ambiente produtivo e outra para os não produtivos, é uma boa prática para a segregação do ambiente e para [escalabilidade](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/scale-subscriptions).
 
 Um ponto importante a ser levado em consideração sobre o permissionamento é que existem dois tipos de funções/atribuições distintas, mas totalmente relacionadas entre si:
 
@@ -31,7 +31,7 @@ Conforme descrito [neste link](https://docs.microsoft.com/pt-br/azure/cloud-adop
 
 ![landing-zone](../images/landing-zone.png)
 
-O Microsoft [Cloud Adopt Framework] (http://aka.ms/caf) descreve em detalhes sobre vários tópicos sobre a arquitetura de landing zone em escala corporativa, que oferece um design modular e não apenas simplifica a implantação de aplicativos novos e existentes mas também permite que as organizações comecem com uma implementação de implantação mais leve e escalem dependendo de suas necessidades de negócios.
+O Microsoft [Cloud Adopt Framework](http://aka.ms/caf) descreve em detalhes sobre vários tópicos sobre a arquitetura de landing zone em escala corporativa, que oferece um design modular e não apenas simplifica a implantação de aplicativos novos e existentes mas também permite que as organizações comecem com uma implementação de implantação mais leve e escalem dependendo de suas necessidades de negócios.
 
 Basicamente, a landing zone lidará com um conjunto de considerações e recomendações com base em algumas áreas de design:
 
