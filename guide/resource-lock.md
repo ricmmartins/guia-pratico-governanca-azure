@@ -1,15 +1,21 @@
 ## Resource Locks
 
-Resource Locks are a feature that allows you to avoid accidentally deleting or modifying critical resources. The lock overrides any permissions the user might have.
+Os bloqueios de recursos são um recurso que permite evitar a exclusão ou modificação acidental de recursos críticos. O bloqueio substitui quaisquer permissões que o usuário possa ter.
 
 ![resource-lock](../images/resource-lock.png)
 
-When you apply a lock on a parent scope, all resources within that scope inherit the same lock. Even the features you add later inherit the parent's lock. The most restrictive block on inheritance takes precedence.
+Quando você aplica um bloqueio em um escopo pai, todos os recursos dentro desse escopo herdam o mesmo bloqueio. Mesmo os recursos que você adiciona posteriormente herdam o bloqueio dos pais. O bloqueio mais restritivo na herança tem precedência.
 
-Unlike role-based access control, you use management locks to apply a restriction to all users and roles.
+Ao contrário do controle de acesso baseado em função (RBAC), você usa bloqueios de gerenciamento para aplicar uma restrição a todos os usuários e funções.
 
-Resource Manager locks apply only to operations that take place in the management plan, which consists of operations sent to [https://management.azure.com](https://management.azure.com). Locks do not restrict how resources perform their own functions. Resource changes are restricted, but resource operations are not restricted. For example, a ReadOnly lock on an SQL database prevents you from deleting or modifying the database, but it does not prevent you from creating, updating, or deleting data in the database. Data transactions are allowed because these transactions are not sent to [https://management.azure.com](https://management.azure.com) 
+Os bloqueios do Resource Manager se aplicam apenas a operações que ocorrem no plano de gerenciamento, que consistem em operações enviadas para [https://management.azure.com](https://management.azure.com). Os bloqueios não restringem como os recursos executam suas próprias funções. As mudanças de recursos são restritas, mas as operações de recursos não são restritas. Por exemplo, um bloqueio *ReadOnly* em um banco de dados SQL impede que você exclua ou modifique o banco de dados, mas não impede que você crie, atualize ou exclua dados no banco de dados. As transações de dados são permitidas porque essas transações não são enviadas para [https://management.azure.com](https://management.azure.com)
 
-Applying ReadOnly can lead to unexpected results because some operations that look like read operations actually require additional actions. For example, placing a ReadOnly lock on a storage account prevents all users from listing keys. The operation of list keys is handled through a POST request because the returned keys are available for write operations. For another example, placing a ReadOnly lock on an application service resource prevents Visual Studio Server Explorer from displaying files for the resource because that interaction requires write access.
+Aplicar *ReadOnly* pode levar a resultados inesperados porque algumas operações que se parecem com operações de leitura, na verdade, requerem ações adicionais. Por exemplo, colocar um bloqueio *ReadOnly* em uma conta de armazenamento impede que todos os usuários listem as chaves. A operação de chaves de lista é tratada por meio de uma solicitação POST porque as chaves retornadas estão disponíveis para operações de gravação. Para outro exemplo, colocar um bloqueio *ReadOnly* em um recurso do *App Service* evita que o Visual Studio Server Explorer exiba arquivos para o recurso porque essa interação requer acesso de gravação.
 
-Reference: [https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources) 
+Referência: [https://docs.microsoft.com/pt-br/azure/azure-resource-manager/management/lock-resources](https://docs.microsoft.com/pt-br/azure/azure-resource-manager/management/lock-resources) 
+
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[RBAC](/guide/rbac.md)| [Azure Policy](/guide/policy.md)
