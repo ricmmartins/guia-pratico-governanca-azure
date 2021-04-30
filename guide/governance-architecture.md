@@ -1,4 +1,4 @@
-## Governance Architecture in Azure
+## Arquitetura de Governança no Azure
 
 Vamos adicionar esses recursos de governança a um diagrama:
 
