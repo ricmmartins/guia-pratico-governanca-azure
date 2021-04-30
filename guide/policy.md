@@ -3,21 +3,21 @@
 ![azure-policy](../images/azure-policy.png)
 
 
-Policy is the backbone of Azure implementation and compliance. Compliance is an evolving scenario that you will always need to assess and adjust according to the needs of the moment. You also need to carefully plan your policies so as not to interrupt other units that require a more flexible policy than the one you have defined.
+A política é a espinha dorsal da implementação e conformidade do Azure. A conformidade é um cenário em evolução que você sempre precisará avaliar e ajustar de acordo com as necessidades do momento. Você também precisa planejar cuidadosamente suas políticas para não interromper outras unidades que exigem uma política mais flexível do que aquela que você definiu.
 
-Through policies, you can control the types of resources that can be provisioned. Or, you can restrict the locations where resources can be provisioned. Unlike RBAC, the policy is a standard system of explicit permission and denial.
+Por meio de políticas, você pode controlar os tipos de recursos que podem ser provisionados. Ou você pode restringir os locais onde os recursos podem ser provisionados. Ao contrário do RBAC, a política é um sistema padrão de permissão explícita e negação.
 
-Azure Policy is a service that you use to create, assign and manage policy definitions. Policy definitions impose different rules and actions on your resources, so that those resources remain in compliance with your corporate standards and service level agreements.
+A Política do Azure é um serviço que você usa para criar, atribuir e gerenciar definições de política. As definições de política impõem diferentes regras e ações sobre seus recursos, de forma que esses recursos permaneçam em conformidade com seus padrões corporativos e acordos de nível de serviço.
 
-The policy focuses on the properties of resources during deployment and for existing resources. It performs an assessment of your resources, checking those that do not conform to the policy definitions you have. A very interesting new feature is the VM guest policy which extends the policy's capacity to the resources running within your VMs.
+A política se concentra nas propriedades dos recursos durante a implantação e nos recursos existentes. Ele realiza uma avaliação de seus recursos, verificando aqueles que não estão em conformidade com as definições de política que você possui. Um novo recurso muito interessante é a política de convidado VM, que estende a capacidade da política para os recursos em execução em suas VMs.
 
-Below a sample on how Azure Policy can help with governance.
+Abaixo, um exemplo de como a Política do Azure pode ajudar na governança.
 
 ![azure-policy-1](../images/azure-policy-1.png)
 
-Your DevOps request to deploy resources in Azure for a given project using a pre-built JSON model to make things easier and faster. Let's say they want to deploy 5 G series VMs in Europe (high ratio of memory to CPU and are ideal for database servers) and 5 Ls in the USA (high disk transfer rate, ideal for big data and SQL).
+Seu time DevOps solicita a implantação de recursos no Azure para um determinado projeto usando um modelo JSON pré-construído para tornar as coisas mais fáceis e rápidas. Digamos que eles queiram implantar 5 VMs da série G na Europa (alta proporção de memória para CPU e são ideais para servidores de banco de dados) e 5 Ls nos EUA (alta taxa de transferência de disco, ideal para big data e SQL).
 
-Azure Policy takes action and scans
+A Política do Azure entra em ação e verifica
 
 ![azure-policy-2](../images/azure-policy-2.png)
 
@@ -25,28 +25,32 @@ Azure Policy takes action and scans
 
 ![azure-policy-4](../images/azure-policy-4.png)
 
-**Order of evaluation**
+**Ordem de avaliação**
 
-Requests to create or update a resource through Azure Resource Manager are evaluated by Policy first. Policy creates a list of all assignments that apply to the resource and then evaluates the resource against each definition. Policy processes several of the effects before handing the request to the appropriate Resource Provider. Doing so prevents unnecessary processing by a Resource Provider when a resource doesn't meet the designed governance controls of Policy.
+As solicitações para criar ou atualizar um recurso por meio do Azure Resource Manager são avaliadas primeiro pela Política. A política cria uma lista de todas as atribuições que se aplicam ao recurso e avalia o recurso em relação a cada definição. A política processa vários dos efeitos antes de encaminhar a solicitação ao Provedor de Recursos apropriado. Isso evita o processamento desnecessário por um Provedor de Recursos quando um recurso não atende aos controles de governança projetados da Política.
 
-**Disabled** is checked first to determine whether the policy rule should be evaluated.
+**Disabled** é verificado primeiro para determinar se a regra de política deve ser avaliada.
 
-**Append** is then evaluated. Since append can change the request, a change made by append can prevent an audit or denial effect from triggering. Append is used to add additional fields to the requested resource during creation or update. A common example is to add tags to resources such as costCenter or to specify allowed IPs for a storage resource.
+**Append** é então avaliado. Uma vez que append pode alterar a solicitação, uma mudança feita por append pode impedir que um efeito de auditoria ou negação seja acionado. Append é usado para adicionar campos adicionais ao recurso solicitado durante a criação ou atualização. Um exemplo comum é adicionar tags a recursos como costCenter ou especificar IPs permitidos para um recurso de armazenamento.
 
-**Deny** is then evaluated. When assessing denial before the audit, double registration of an unwanted appeal is avoided. Deny is used to avoid a resource request that does not match the standards set through a policy definition and the request fails.
+**Deny** é então avaliado. Ao avaliar a negação antes da auditoria, evita-se o registro duplo de um recurso indesejado. Negar é usado para evitar uma solicitação de recurso que não corresponda aos padrões definidos por meio de uma definição de política e a solicitação falhar.
 
-**Audit** is then evaluated before the request goes to the Resource Provider. The audit is used to create a warning event in the activity log when evaluating an unsupported resource, but not for the request.
+**Audit** é então avaliada antes que a solicitação vá para o Provedor de Recursos. A auditoria é usada para criar um evento de aviso no log de atividades ao avaliar um recurso não suportado, mas não para a solicitação
 
-After the resource provider returns a success code, AuditIfNotExists and DeployIfNotExists evaluate to determine whether additional compliance logging or action is required.
+Depois que o provedor de recursos retorna um código de sucesso, AuditIfNotExists e DeployIfNotExists avaliam para determinar se log de conformidade adicional ou ação é necessária.
 
 **AuditIfNotExists**
 
-AuditIfNotExists enables auditing on resources that match the **if** condition, but does not have the components specified in the **details** of the **then** condition.
+AuditIfNotExists ativa a auditoria em recursos que correspondem à condição **if **, mas não tem os componentes especificados nos **detalhes** da condição **then**
 
 **DeployIfNotExists**
 
-Similar to AuditIfNotExists, DeployIfNotExists performs a model deployment when the condition is met.
+Semelhante a AuditIfNotExists, DeployIfNotExists executa uma implantação de modelo quando a condição é atendida.
 
-Reference: [https://docs.microsoft.com/en-us/azure/governance/policy/overview](https://docs.microsoft.com/en-us/azure/governance/policy/overview) 
+Referência: [https://docs.microsoft.com/pt-br/azure/governance/policy/overview](https://docs.microsoft.com/pt-br/azure/governance/policy/overview) 
 
+---
 
+Anterior | Próximo | 
+:----- |:-----
+[Resource Lock](/guide/resource-lock.md)| [ARM Templates](/guide/arm.md)
