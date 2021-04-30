@@ -1,13 +1,14 @@
 ## Governance Architecture in Azure
 
-Let's add these governance features to a diagram:
+Vamos adicionar esses recursos de governança a um diagrama:
 
 ![governance-diagram](../images/governance-diagram.png)
 
-Think of multiple development teams or business units that want to consume Azure resources to meet their specific business requirements. How many of these people, especially DevOps, will readily know how to properly design and configure network components?
+Pense em várias equipes de desenvolvimento ou unidades de negócios que desejam consumir recursos do Azure para atender a seus requisitos específicos de negócios. Quantas dessas pessoas, especialmente DevOps, saberão prontamente como projetar e configurar corretamente os componentes de rede?
 
-Ultimately, you want a quick and efficient way to deploy and update cloud environments in a repeatable way using combinable artifacts.
+Em última análise, você deseja uma maneira rápida e eficiente de implantar e atualizar ambientes em nuvem de maneira repetível usando artefatos combináveis.
 
-You would start by setting up your blueprints. And these blueprints would have all the basic and necessary components for an entire solution, such as their policy definitions, RBAC functions, ARM models, number of signatures needed and the preliminary groups already granted the appropriate access levels to the resources in that blueprint, such as their VMs, storage accounts, network components and any other resource providers.
+Você começaria configurando seus blueprints. E esses blueprints teriam todos os componentes básicos e necessários para uma solução inteira, como suas definições de políticas, funções RBAC, modelos ARM, número de assinaturas necessárias e os grupos preliminares já concedidos os níveis de acesso apropriados aos recursos nesse blueprint, como como suas VMs, contas de armazenamento, componentes de rede e quaisquer outros provedores de recursos.
 
-Finally, you can take advantage of the Resource Graph to check the environment and ensure, for example, that the number of resources is in accordance with your budget.
+Por último, você pode aproveitar o Resource Graph para verificar o ambiente e garantir, por exemplo, se o número de recursos está de acordo com seu orçamento.
+
