@@ -1,27 +1,27 @@
-## Azure Policy best practices
+## Práticas recomendadas da Política do Azure
 
-Ask yourself these 3 questions and work from them when defining your policies
+Faça a si mesmo estas 3 perguntas e trabalhe com elas ao definir suas políticas:
 
-* What drives your need for policy?
-   * Regulatory Compliance
-   * Controlling cost
-   * Standards & Tagging
-   * Maintain security and performance consistency
-   * Enforce enterprise wide design principles
+* O que impulsiona sua necessidade de política?
+   * Conformidade regulatória
+   * Controle de custos
+   * Padrões e tags
+   * Manter a segurança e a consistência de performance
+   * Aplicar princípios de design em toda a empresa
 
-* Who owns the policy settings?
-   * “Initiative" owners
-   * Security Architect
-   * Cloud Architect
-   * Cloud Engineers
+* Quem é o proprietário das configurações de política?
+   * Proprietários da "iniciativa"
+   * Arquiteto de Segurança
+   * Arquiteto Cloud
+   * Engenheiro Cloud
 
 
-* What is involved in defining a new policy or refining an existing one?
-   * Research or gather evidence on the impact of a particular configuration on a particular fundamental (like cost or security)
-   * What-if analysis of enforcing configuration in a particular manner
-   * Assess the current state of compliance to understand the impact of new policy and what exceptions are needed
-   * Roll out new policy in phases
-   * Understand the applications & teams who are non-compliant
-   * Rollout remediation in stages via SafeDeploy practices
+* O que está envolvido na definição de uma nova política ou no refinamento de uma já existente?
+   * Pesquise ou reúna evidências sobre o impacto de uma configuração específica em um fundamento específico (como custo ou segurança por exemplo)
+   * Análise de hipóteses de imposição de configuração de uma maneira particular
+   * Avalie o estado atual de conformidade para entender o impacto da nova política e quais exceções são necessárias
+   * Implementar nova política em fases
+   * Entenda os aplicativos e equipes que não estão em conformidade
+   * Implementação de remediação em estágios por meio de práticas de SafeDeploy
 
-These questions need to be asked from time to time as compliance is an evolving thing. You need to adjust your policies according to your current priorities, not only for compliance, but also for different projects that might require more powerful resources deployed that are currently blocked by policy, for example.
+Essas perguntas precisam ser feitas de vez em quando, pois a conformidade é uma coisa em evolução. Você precisa ajustar suas políticas de acordo com suas prioridades atuais, não apenas para conformidade, mas também para diferentes projetos que podem exigir recursos mais poderosos implantados que estão atualmente bloqueados por política, por exemplo.
