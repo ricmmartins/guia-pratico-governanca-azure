@@ -1,9 +1,10 @@
 ## Resource Tag
 
-Associated with a good name pattern strategy is the use of tags on objects. Tags are applied to resources, resource groups and signatures to logically organize them into a taxonomy. The tags consist of a name/value pair. Here are some examples of tags that you can consider using in your environment:
+Associado a uma estratégia de padrão de bom nome está o uso de tags em objetos. As marcas são aplicadas a recursos, grupos de recursos e assinaturas para organizá-los logicamente em uma taxonomia. As tags consistem em um par chave/valor. Aqui estão alguns exemplos de tags que você pode considerar usar em seu ambiente:
 
 ![resource-tag](../images/resource-tag.png)
 
-Going beyond support in governance, the use of tags can also be used in automation and cost control strategies. Use the links below to access a tag decision and resource naming guide and excellent material to assist you in defining the tag strategy:
-* [https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/)
-* [https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
+Indo além do suporte em governança, o uso de tags também pode ser utilizado em estratégias de automação e controle de custos. Use os links abaixo para acessar uma decisão sobre tags e um guia de nomenclatura de recursos e um excelente material para ajudá-lo a definir a estratégia de tags:
+
+* [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/resource-tagging/](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/resource-tagging/)
+* [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
