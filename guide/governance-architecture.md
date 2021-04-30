@@ -12,3 +12,8 @@ Você começaria configurando seus blueprints. E esses blueprints teriam todos o
 
 Por último, você pode aproveitar o Resource Graph para verificar o ambiente e garantir, por exemplo, se o número de recursos está de acordo com seu orçamento.
 
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[Visão geral dos recursos nativos do Azure para governança em nuvem](/guide/overview-native-features.md)| [Azure Active Directory](/guide/aad.md)
