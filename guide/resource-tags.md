@@ -8,3 +8,9 @@ Indo além do suporte em governança, o uso de tags também pode ser utilizado e
 
 * [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/resource-tagging/](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/resource-tagging/)
 * [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging](https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
+
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[Resource Groups](/guide/resource-groups.md)| [RBAC](/guide/rbac.md)
