@@ -1,10 +1,25 @@
 ## Azure Active Directory
 
-In order to begin to understand in more detail about the main services related to Azure Governance, it is important to start by talking about the relationship between Azure Active Directory (AAD) and subscriptions. It will not be covered all the details about it here since this is not the purpose of this document. However, here we will see the basics of how it works and the difference between Azure Active Directory (AAD) and Active Directory (AD).
+Para começarmos a entender mais detalhadamente sobre os principais serviços relacionados com a Governança do Azure, é importante começarmos falando sobre a relação do Azure Active Directory (AAD) com as assinaturas. Não será abordado todos os detalhes sobre ele aqui, uma vez que este não é o propósito deste documeto. No entanto veremos aqui o básico do seu funcionamento e a diferença entre o Azure Active Directory (AAD) e o Active Directory (AD).
 
-AAD is the cloud-based identity and access management service that will allow you to grant access to users, groups and applications on Azure services as well as allowing you to define how they will use Azure resources through the functions that you will assign to them. In this way, it will take on the role of managing authorization and authentication for Azure services.
+O AAD é o serviço de gerenciamento de identidade e acessos baseado na nuvem que irá permitir que você conceda acesso para usuários, grupos e aplicações nos serviços do Azure assim como também permite que você defina como eles irão utilizar os recursos do Azure através das funções que você irá atribuir à eles. Desta forma, ele fará o papel de gerenciar a autorização e autenticação para os serviços do Azure.
 
-When creating an Azure subscription, an AAD tenant is automatically created. The tenant is nothing more than the representation of your company's domain within Azure Active Directory. Note that by default you will always get a name.onmicrosoft.com that you can then customize for yourdomain.com.
-Within your AAD tenant you will have your AAD directory which is where you will create your users and groups. Note that you can also sync your existing users in your existing Active Directory to Azure Active Directory via Azure AD Connect, but this topic will not be covered here.
 
-So basically, the main difference from Active Directory to Azure Active Directory is that AAD aims to work exclusively on the authorization and authentication of its users, groups and applications in Azure services. In contrast, Active Directory performs authorization and authentication in the on-premises environment in addition to many other tasks such as managing GPOS and Windows servers. In this link there is a broader comparison between them: [https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-compare-azure-ad-to-ad](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-compare-azure-ad-to-ad)
+Ao criar uma assinatura do Azure, um **tenant** do AAD é automaticamente criado. O **tenant** nada mais é que a representação do domínio da sua empresa dentro do Azure Active Directory. Note que por padrão você sempre irá ganhar um **nome.onmicrosoft.com** que depois você pode customizar para **seudominio.com**. 
+
+Dentro do seu **tenant**  do AAD você terá o seu diretório do AAD que é onde você irá criar seus usuários e grupos. Note que você também pode fazer um sincronismo dos seus usuários já existentes no seu Active Directory existente para o Azure Active Directory através do Azure AD Connect, mas este assunto não será abordado aqui. 
+
+Então basicamente a principal diferença do Active Directory para o Azure Active Directory é que o AAD tem por objetivo trabalhar exclusivamente a **autorização e autenticação dos seus usuários, grupos  e aplicações nos serviços do Azure**. Em contrapartida o Active Directory faz a autorização e autenticação no ambiente on-premises além de muitas outras tarefas como gerenciamento de GPOS e servidores Windows. [Neste link](https://docs.microsoft.com/pt-br/azure/active-directory/fundamentals/active-directory-compare-azure-ad-to-ad) existe uma comparação mais ampla entre eles.
+
+
+### Pro tip!
+
+✔️ [Azure AD Identity Governance](https://docs.microsoft.com/pt-br/azure/active-directory/governance/identity-governance-overview)
+<br>
+✔️ [Azure AD access reviews](https://docs.microsoft.com/pt-br/azure/active-directory/governance/access-reviews-overview)
+
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[Arquitetura de governança no Azure](/guide/aad.md)| [Padrões de nomes](/guide/naming.md)
