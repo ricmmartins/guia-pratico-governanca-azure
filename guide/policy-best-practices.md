@@ -30,4 +30,4 @@ Essas perguntas precisam ser feitas de vez em quando, pois a conformidade é uma
 
 Previous| Next | 
 :----- |:-----
-[Melhores práticas para Azure Policy](/guide/azure-policy-best-practices.md)| [ARM Templates](/guide/arm.md)
+[Azure Policy](/guide/policy.md)| [ARM Templates](/guide/arm.md)
