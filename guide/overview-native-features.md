@@ -1,15 +1,21 @@
-## Overview of Azure native features for cloud governance
+## Visão geral dos recursos nativos do Azure para governança em nuvem
 
 ![native tools](../images/overview-native-tools.png)
 
-The resources we have in the Azure portfolio to deliver this level of control are what you see in the image above. All of these are native features of the platform, in other words, nothing here is a different product that you need to purchase or deploy in your cloud environment. The moment you create your first subscription, these features are there for you to use right away and are completely free.
+Os recursos que temos no portfólio do Azure para fornecer esse nível de controle são o que você vê na imagem acima. Todos esses são recursos nativos da plataforma, ou seja, nada aqui é um produto diferente que você precise adquirir ou implantar em seu ambiente de nuvem. No momento em que você cria sua primeira assinatura, esses recursos estão lá para você usar imediatamente e são totalmente gratuitos.
 
-**Policy:** This is where you will define what can and cannot be deployed in the cloud. He will constantly check your signatures and resources to ensure that everything complies with corporate rules.
+**Policy:** Aqui é onde você definirá o que pode ou não ser implantado na nuvem. Ele verificará constantemente suas assinaturas e recursos para garantir que tudo esteja de acordo com as regras corporativas.
 
-**Blueprints:** It helps you to configure your cloud environment so that it is managed properly and deployed in a repeatable manner. It allows a kind of implementation of governance as a code. Subscriptions are made available to development teams or departments as they are created. The goal here is that, when teams are presented with a subscription controlled by Blueprints, the amount of time they need to take from initial subscription settings, permits, policies, etc. to the implementation of the project in production decreases dramatically.
+**Blueprints:** Ajuda você a configurar seu ambiente de nuvem para que seja administrado de maneira adequada e implantado de maneira repetível. Permite uma espécie de implantação de governança como código (governance as a code). As assinaturas são disponibilizadas aos times de desenvolvimento ou departamentos à medida que são criadas. O objetivo aqui é que, quando os times forem apresentados a uma assinatura controlada pelo Blueprints, a quantidade de tempo que precisam levar desde as configurações iniciais de uma assinatura, permissionamentos, políticas, etc até a implementação do projeto em produção diminua drasticamente.
 
-**Resource Graph:** This is a Big Data technology where we bring the configurations of all your resources from your cloud environment and offer you, through a structured query language, the ability to explore your environment very quickly, allowing visibility at scale over all your environment.
-Management Group: If your organization has many subscriptions, you may need a way to efficiently manage access, policies and compliance for those subscriptions. This can be done through the Management Group.
+**Resource Graph:** Esta é uma tecnologia de Big Data onde trazemos as configurações de todos os seus recursos do seu ambiente de nuvem e oferecemos a você, por meio de uma linguagem de consulta estruturada, a capacidade de explorar seu ambiente muito rapidamente, permitindo visibilidade em escala sobre todo o seu ambiente.
 
-**Cost Management:** Helps you understand your Azure invoice, monitor and control spending, and optimize resource usage. It allows you to analyze costs, create and manage budgets, export data, examine recommendations and act on them.
+**Management Group:** Se a sua organização tiver muitas assinaturas, você pode precisar de uma maneira de gerenciar com eficiência o acesso, as políticas e a conformidade para essas assinaturas. Isso pode ser feito por meio do Grupo de gerenciamento.
 
+**Cost Management:** Ajuda você a entender a fatura do Azure, monitorar e controlar os gastos e otimizar o uso de recursos. Permite analisar custos, criar e gerenciar orçamentos, exportar dados, examinar recomendações e agir com base nelas.
+
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[Por que a governança é necessária?](/guide/governance-needed.md)  | [Arquitetura de governança no Azure](/guide/governance-architecture.md)
