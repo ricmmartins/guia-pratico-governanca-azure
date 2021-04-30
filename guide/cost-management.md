@@ -24,4 +24,4 @@ Referências:
 
 Previous| Next | 
 :----- |:-----
-[Azure Management Group](/guide/management-group.md)| [Conclusion](/guide/conclusion.md)
+[Azure Management Group](/guide/management-group.md)| [Conclusão](/guide/conclusion.md)
