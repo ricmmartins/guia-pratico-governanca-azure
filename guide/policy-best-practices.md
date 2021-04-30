@@ -25,3 +25,9 @@ Faça a si mesmo estas 3 perguntas e trabalhe com elas ao definir suas política
    * Implementação de remediação em estágios por meio de práticas de SafeDeploy
 
 Essas perguntas precisam ser feitas de vez em quando, pois a conformidade é uma coisa em evolução. Você precisa ajustar suas políticas de acordo com suas prioridades atuais, não apenas para conformidade, mas também para diferentes projetos que podem exigir recursos mais poderosos implantados que estão atualmente bloqueados por política, por exemplo.
+
+---
+
+Previous| Next | 
+:----- |:-----
+[Azure Policy](/guide/policy.md)| [ARM Templates](/guide/arm.md)
