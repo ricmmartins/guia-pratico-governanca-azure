@@ -41,7 +41,7 @@ Depois que o provedor de recursos retorna um código de sucesso, AuditIfNotExist
 
 **AuditIfNotExists**
 
-AuditIfNotExists ativa a auditoria em recursos que correspondem à condição **if **, mas não tem os componentes especificados nos **detalhes** da condição **then**
+AuditIfNotExists ativa a auditoria em recursos que correspondem à condição **if**, mas não tem os componentes especificados nos **detalhes** da condição **then**
 
 **DeployIfNotExists**
 
