@@ -1,8 +1,4 @@
-# Visão geral de Governança
-
 ## Por que a governança é necessária?
-
-<center><img src="../images/governance-needed.png"/></center>
 
 ![Por que a governança é necessária?](../images/governance-needed.png)
 
