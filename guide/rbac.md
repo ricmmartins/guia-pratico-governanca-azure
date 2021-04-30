@@ -2,30 +2,38 @@
 
 ![rbac](../images/rbac.png)
 
-Role Based Access Control (RBAC) allows you to separate tasks within your team and grant only the amount of access that users need to perform their tasks. Instead of giving everyone unrestricted permissions on your subscription or Azure features, you can only allow certain actions within a given scope.
+O controle de acesso baseado em função (RBAC) permite que você separe tarefas dentro de sua equipe e conceda apenas a quantidade de acesso de que os usuários precisam para realizar suas tarefas. Em vez de dar a todos permissões irrestritas em sua assinatura ou recursos do Azure, você só pode permitir certas ações dentro de um determinado escopo.
 
 **Security Principal**
 
-A security principal is an object that represents a user, group, service principal, or managed identity that is requesting access to Azure resources.
+Uma entidade de segurança é um objeto que representa um usuário, grupo, entidade de serviço ou identidade gerenciada que está solicitando acesso aos recursos do Azure.
 
-- *Service Principal*: a security identity used by applications or services to access specific Azure features. You can think of it as a user identity (username and password or certificate) for an application.
+- *Service Principal*: uma identidade de segurança usada por aplicativos ou serviços para acessar recursos específicos do Azure. Você pode pensar nisso como uma identidade de usuário (nome de usuário e senha ou certificado) para um aplicativo.
 
-- *Managed Identity*: an identity in Azure Active Directory that is automatically managed by Azure. Typically, you use managed identities when developing cloud applications to manage credentials for authenticating to Azure services.
+- *Managed Identity*: uma identidade no Azure Active Directory que é gerenciada automaticamente pelo Azure. Normalmente, você usa identidades gerenciadas ao desenvolver aplicativos em nuvem para gerenciar credenciais para autenticação nos serviços do Azure.
 
 **Role Definition**
 
-A role definition is a collection of permissions. Sometimes, it is just called role. A role definition lists operations that can be performed, such as reading, writing, and deleting. The roles can be high-level, as an owner, or specific, as a virtual machine reader. You can create custom roles if none of the existing integrated roles does not meet your organization's specific needs.
+Uma definição de função é uma coleção de permissões. Às vezes, é apenas chamado de papel. Uma definição de função lista as operações que podem ser executadas, como leitura, gravação e exclusão. As funções podem ser de alto nível, como proprietário, ou específicas, como leitor de máquina virtual. Você pode criar funções personalizadas se nenhuma das funções integradas existentes não atender às necessidades específicas da sua organização.
 
 **Scope**
 
-The scope is the limit to which access applies. When assigning a role, you can further limit the actions allowed by defining a scope. This is useful if you want to make someone a Website Contributor for example, but only for a group of resources.
+O escopo é o limite ao qual o acesso se aplica. Ao atribuir uma função, você pode limitar ainda mais as ações permitidas definindo um escopo. Isso é útil se você deseja tornar alguém um Contribuidor do Site, por exemplo, mas apenas para um grupo de recursos.
 
-Scopes can be Management Groups**, Subscriptions, Resource Group or a Resource itself. It is important to note that RBAC permissions have a top-down hierarchy, which means that when defining a role definition in a higher scope, it will be replicated to objects in the lower scope. So, if you grant Contributor permission to someone at the subscription level, that permission will be inherited in all resource groups under this subscription, as well as resources.
+Os escopos podem ser Management Groups (grupos de gerenciamento)**, assinaturas, grupo de recursos ou o próprio recurso. É importante observar que as permissões RBAC possuem uma hierarquia de cima para baixo, o que significa que ao definir uma definição de função em um escopo superior, ela será replicada para objetos no escopo inferior. Portanto, se você conceder permissão de Contribuidor a alguém no nível da assinatura, essa permissão será herdada em todos os grupos de recursos dessa assinatura, bem como nos recursos.
 
 ![scope](../images/scope.png)
 
 Reference: [https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview](https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview)
 
-** Management Group is a feature of Azure to facilitate the management of access and policies in environments with multiple signatures. We will cover it in more detail in the advanced governance topics.
+** Grupo de gerenciamento é um recurso do Azure para facilitar o gerenciamento de acesso e políticas em ambientes com várias assinaturas. Abordaremos isso com mais detalhes nos tópicos avançados de governança.
 
+### Pro tip!
 
+✔️ [Gerenciar o acesso a uma assinatura do Azure usando o controle de acesso baseado em função do Azure](https://docs.microsoft.com/pt-br/learn/modules/manage-subscription-access-azure-rbac/)
+
+---
+
+Anterior| Próximo | 
+:----- |:-----
+[Resource Tags](/guide/resource-tags.md)| [Resource Lock](/guide/resource-lock.md)
