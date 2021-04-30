@@ -1,40 +1,40 @@
 # Azure Governance made simple
->Main topics about Azure Governance in a structured "e-book"
+>Principais tópicos sobre a Governança do Azure em um "e-book" estruturado para servir como um "Learning Path" de Governança.
 
 ![azure_governance](/images/azure_governance.png)
 
-This content was made with the aim of raising awareness about the resources available in Azure that will help organizations to be more agile in implementing controls as well as taking a more proactive approach when dealing with governance.
+Este conteúdo foi feito com o objetivo de conscientizar sobre os recursos disponíveis no Azure que ajudarão as organizações a serem mais ágeis na implementação de controles, além de uma abordagem mais proativa no trato com a governança.
 
-It will be divided into two parts, the first dealing with more basic topics and the second part dealing with advanced topics within this context.
+Ele será dividido em duas partes, a primeira lidando com tópicos mais básicos e a segunda parte lidando com tópicos avançados dentro deste contexto.
 
 
-## Basic governance topics
+## Tópicos básicos de governança
 
-1. Governance Overview
-   * [Why is Governance needed?](guide/governance-needed.md)
-   * [Overview of Azure native features for cloud governance](guide/overview-native-features.md)
-   * [Governance architecture in Azure](guide/governance-architecture.md)
+1. Visão geral sobre Governança
+   * [Por que a governança é necessária?](guide/governance-needed.md)
+   * [Visão geral dos recursos nativos do Azure para governança em nuvem](guide/overview-native-features.md)
+   * [Arquitetura de governança no Azure](guide/governance-architecture.md)
 2. [Azure Active Directory](guide/aad.md)
-3. [Naming standards](guide/naming.md)
-4. [Azure subscription](guide/subscription.md)
+3. [Padrões de nomenclatura](guide/naming.md)
+4. [Azure Subscription](guide/subscription.md)
 5. [Resource Groups](guide/resource-groups.md)
 6. [Resource Tags](guide/resource-tags.md)
 7. [RBAC](guide/rbac.md)
 8. [Resource Lock](guide/resource-lock.md)
 
-## Advanced governance topics
+## Tópicos avançados de governança
 
 9. [Azure Policy](guide/policy.md)
-   * [Azure policy best practices](guide/policy-best-practices.md)
+   * [Melhores práticas sobre uso de políticas](guide/policy-best-practices.md)
 10. [ARM Templates](guide/arm.md)
 11. [Azure Blueprints](guide/blueprints.md)
 12. [Azure Resource Graph](guide/resource-graph.md)
 13. [Azure Management Group](guide/management-group.md)
 14. [Azure Cost Management](guide/cost-management.md)
 
-## Conclusion
+## Conclusão
 
-15. [Conclusion](guide/conclusion.md)
+15. [Conclusão](guide/conclusion.md)
 
 
 
