@@ -28,6 +28,6 @@ Referência: [https://docs.microsoft.com/pt-br/azure/governance/management-group
 
 ---
 
-Anterior | Próximo |
-: ----- |: -----
-[Azure Resource Graph] (/guide/resource-graph.md) | [Azure Cost Management] (/guide/cost-management.md)
+Anterior | Próximo | 
+:----- |:-----
+[Azure Resource Graph](/guide/resource-graph.md)| [Azure Cost Management](/guide/cost-management.md)
