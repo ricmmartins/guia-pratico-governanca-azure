@@ -7,7 +7,7 @@ Este conteúdo foi feito com o objetivo de conscientizar sobre os recursos dispo
 
 Ele será dividido em duas partes, a primeira lidando com tópicos mais básicos e a segunda parte lidando com tópicos avançados dentro deste contexto.
 
-***❗ Uma versão em inglês deste material está [disponível aqui](https://github.com/ricmmartins/azure-governance-made-simple).***
+***‼️ Uma versão em inglês deste material está [disponível aqui](https://github.com/ricmmartins/azure-governance-made-simple).***
 
 
 ## Tópicos básicos de governança
