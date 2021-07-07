@@ -20,6 +20,11 @@ O AzGovViz (visualizador de governança do Azure) é um script do PowerShell que
 
 ![azgovviz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting/blob/master/img/HierarchyMap.png)
 
+### Workbook do Azure Monitor para Langing Zone
+
+Existe um [workbook](https://docs.microsoft.com/pt-br/azure/azure-monitor/visualize/workbooks-overview) que você pode implantar no seu ambiente para validar o uso de todas as práticas recomendadas do CAF. Está [disponível aqui](https://github.com/Azure/fta-landingzone/tree/main/LZReview) e é altamente recomendado para uso.
+
+
 ---
 
 Anterior |  
