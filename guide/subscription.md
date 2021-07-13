@@ -31,7 +31,7 @@ Conforme descrito [neste link](https://docs.microsoft.com/pt-br/azure/cloud-adop
 
 ![landing-zone](../images/landing-zone.png)
 
-O Microsoft [Cloud Adopt Framework](http://aka.ms/caf) descreve em detalhes sobre vários tópicos sobre a arquitetura de landing zone em escala corporativa, que oferece um design modular e não apenas simplifica a implantação de aplicativos novos e existentes mas também permite que as organizações comecem com uma implementação de implantação mais leve e escalem dependendo de suas necessidades de negócios.
+O Microsoft [Cloud Adoption Framework](http://aka.ms/caf) descreve em detalhes sobre vários tópicos sobre a arquitetura de landing zone em escala corporativa, que oferece um design modular e não apenas simplifica a implantação de aplicativos novos e existentes mas também permite que as organizações comecem com uma implementação de implantação mais leve e escalem dependendo de suas necessidades de negócios.
 
 Basicamente, a landing zone lidará com um conjunto de considerações e recomendações com base em algumas áreas de design:
 
