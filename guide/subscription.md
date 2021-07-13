@@ -48,9 +48,9 @@ Na landing zone, a escolha da topologia de rede a ser usada é importante para o
 
 ![hub-spoke](../images/hub-spoke.png)
 
-* Uma primeira assinatura de **serviços compartilhados** (Rede Virtual Hub)
-* Uma segunda assinatura para o ambiente de **produção** (Rede Virtual Spoke 1)
-* Uma terceira assinatura para o ambiente **não-produtivo** (Spoke2 Virtual Network)
+* Uma primeira assinatura de **serviços compartilhados** (Virtual Hub network)
+* Uma segunda assinatura para o ambiente de **produção** (Spoke Virtual Network #1)
+* Uma terceira assinatura para o ambiente **não-produtivo** (Spoke Virtual Network #2)
 * Algumas referências sobre a topologia Hub e Spoke:
   - [https://docs.microsoft.com/pt-br/azure/architecture/reference-architectures/hybrid-networking/hub-spoke](https://docs.microsoft.com/pt-br/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
   - [https://docs.microsoft.com/pt-br/azure/cloud-adoption-framework/decision-guides/software-defined-network/hub-spoke](https://docs.microsoft.com/pt-br/azure/cloud-taking-framework/decision-guides/software-defined-network/hub-spoke)
