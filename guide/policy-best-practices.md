@@ -30,4 +30,4 @@ Essas perguntas precisam ser feitas de vez em quando, pois a conformidade é uma
 
 Previous| Next | 
 :----- |:-----
-[Azure Policy](/guide/policy.md)| [ARM Templates](/guide/arm.md)
+[Azure Policy](/guide/policy.md)| [Políticas sugeridas para governança](/guide/governance-policies.md)
