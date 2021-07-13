@@ -24,7 +24,7 @@ Os escopos podem ser Management Groups (grupos de gerenciamento)**, assinaturas,
 
 ![scope](../images/scope.png)
 
-Reference: [https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview](https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview)
+Referência: [https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview](https://docs.microsoft.com/pt-br/azure/role-based-access-control/overview)
 
 ** Grupo de gerenciamento é um recurso do Azure para facilitar o gerenciamento de acesso e políticas em ambientes com várias assinaturas. Abordaremos isso com mais detalhes nos tópicos avançados de governança.
 
