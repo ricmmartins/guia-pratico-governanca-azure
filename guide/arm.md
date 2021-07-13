@@ -20,4 +20,4 @@ Por outro lado, se você estiver mais familiarizado com ferramentas de código a
 
 Anterior | Próximo | 
 :----- |:-----
-[Melhores práticas para Azure Policy](/guide/policy-best-practices.md )| [Azure Blueprints](/guide/blueprints.md)
+[Políticas sugeridas para governança](/guide/governance-policies.md )| [Azure Blueprints](/guide/blueprints.md)
