@@ -1,4 +1,4 @@
-## Práticas recomendadas da Política do Azure
+## Práticas recomendadas das políticas do Azure
 
 Faça a si mesmo estas 3 perguntas e trabalhe com elas ao definir suas políticas:
 
