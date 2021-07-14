@@ -10,6 +10,7 @@ Ele será dividido em duas partes, a primeira lidando com tópicos mais básicos
 
 
 ***✔️ Uma versão em inglês deste material está [disponível aqui](https://github.com/ricmmartins/azure-governance-made-simple).***
+**✔️ Versão em PDF, EPUB e MOBI disponível no Leanpub: [https://leanpub.com/governancanoazure](https://leanpub.com/governancanoazure)**
 
 
 ## Tópicos básicos de governança
