@@ -44,6 +44,8 @@ Aqui está uma lista de políticas sugeridas que você pode aplicar em seu ambie
 |--- |--- |
 
 ### ☑️ Segurança
+✔️ *Observe que se você decidir habilitar as iniciativas internas da Central de Segurança do Azure, fique atento a conflitos sobrepostos. [Veja aqui](https://docs.microsoft.com/en-us/azure/security-center/policy-reference) as definições internas da Política do Azure para a Central de Segurança do Azure*
+
 **No máximo 3 proprietários devem ser designados para sua assinatura:** Recomenda-se designar até 3 proprietários de assinatura para reduzir o potencial de violação por um proprietário comprometido.
 
 |[Clique aqui para ver no portal do Azure](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F4f11b553-d42e-4e3a-89be-32ca364cad4c) | [Clique aqui para ver o arquivo JSON](https://github.com/Azure/azure-policy/blob/master/built-in-policies/policyDefinitions/Security%20Center/ASC_DesignateLessThanXOwners_Audit.json)|
